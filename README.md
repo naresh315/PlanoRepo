@@ -1,3 +1,7 @@
+kafka certifications:
+https://training.confluent.io/activity-dashboard
+
+
 Java 
 
 sql window function partition over
