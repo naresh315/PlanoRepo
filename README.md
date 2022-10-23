@@ -1,4 +1,8 @@
 Java 
+
+sql window function partition over
+https://www.youtube.com/watch?v=Ww71knvhQ-s
+
 java stream grouping by 
 https://www.youtube.com/watch?v=PMhrMDHFFW4&list=PLyHJZXNdCXsfcMboYwGoL6wKAFPxljz5W
 
