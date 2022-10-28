@@ -19,6 +19,30 @@ Solution 1.[ Time Complexity: O(N) ]
     return arr[0];
 }
 
+
+Solution :02: [Devide and conquer   Time Complexity: O(logN)]
+public int findPeakElement(int[] num) {    
+    return peakFinder(num,0,num.length-1);
+}
+public int peakFinder(int[] num,int start,int end){
+    if(start == end){
+        return start;
+    }else if(start+1 == end){
+        if(num[start] > num[end]) return start;
+        return end;
+    }else{
+        int m = (start+end)/2;        
+        if(num[m] > num[m-1] && num[m] > num[m+1]){
+            return m;
+        }else if(num[m-1] > num[m] && num[m] > num[m+1]){
+            return peakFinder(num,start,m-1);
+        }else{
+            return peakFinder(num,m+1,end);
+        } 
+    }
+}
+
+
  
 Find the minimum and maximum element in an array
 Write a program to reverse the array
