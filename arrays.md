@@ -1,4 +1,7 @@
-<br><br>Peak Element<br><br>Find the minimum and maximum element in an array<br><br>
+<br><br>Peak Element<br><br>
+
+
+Find the minimum and maximum element in an array<br><br>
 Write a program to reverse the array<br><br>
 Write a program to sort the given array<br><br>
 Find the Kth largest and Kth smallest number in an array<br><br>
