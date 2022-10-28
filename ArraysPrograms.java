@@ -19,6 +19,8 @@ Solution 1.
     return arr[0];
 }
 
+https://iq.opengenus.org/peak-element-in-array/#:~:text=The%20peak%20element%20in%20an,peak%20elements%3A15%20and%2023.
+
 Find the minimum and maximum element in an array
 Write a program to reverse the array
 Write a program to sort the given array
