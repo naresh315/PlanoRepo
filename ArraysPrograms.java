@@ -1,5 +1,5 @@
 Peak Element  
-Solution 1.
+Solution 1.[ Time Complexity: O(N) ]
   int findPeakELement(int arr[], arrlength){
     if (arrlength == 1)
       return arr[0];//return the element if there's only one element in the array
